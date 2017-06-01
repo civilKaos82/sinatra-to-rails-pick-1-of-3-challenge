@@ -34,4 +34,4 @@ Make sure you understand every line of code you're writing. Don't copy and paste
 [helpers]: http://guides.rubyonrails.org/form_helpers.html
 [csrf]: https://en.wikipedia.org/wiki/Cross-site_request_forgery
 [form helpers]: http://guides.rubyonrails.org/form_helpers.html
-[url-helpers]: http://guides.rubyonrails.org/routing.html#generating-paths-and-urls-from-code
+[url-helpers]: http://guides.rubyonrails.org/routing.html#path-and-url-helpers
