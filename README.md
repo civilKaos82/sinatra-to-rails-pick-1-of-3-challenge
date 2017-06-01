@@ -1,28 +1,36 @@
-# Sinatra To Rails Pick 1 Of 3 
- 
-##Learning Competencies
-- Identify the differences between Sinatra and Rails.
-- Implement a solved problem (something that you've solved/done before) in different frameworks.
-- Familiarity with Rails moving parts and the 'Rails way'.
+# Sinatra To Rails (Choose One)
 
-##Summary 
+## Summary
 
- Pick one of the following three Sinatra-based challenges and build it in Rails:
+ Pick one of the following Sinatra-based challenges and build it in Rails:
 
-1. [Craigslist, Jr.](../../../craigslist-jr-challenge)
-2. [Stack Overflow Clone](../../../sinatra-overflow-challenge)
-3. [Hacker News Clone](../../../hacker-news-clone-part-1-challenge)
+1. [Web Flashcards Challenge](../../../web-flashcards-challenge)
+1. [Stack Overflow Clone](../../../sinatra-overflow-challenge)
 
-Focus first and foremost on doing things the "Rails way."  Rails' idiomatic style can be frustrating coming from simpler, more explicit frameworks like Sinatra, but the sooner you [grok](http://en.wikipedia.org/wiki/Grok) how Rails sees the world the more productive you'll be.
+Focus on doing things the "Rails way." The "convention over configuration" can be frustrating coming from more explicit frameworks like Sinatra.
+
+The sooner you understand and learn how Rails sees the world, the more productive you'll be.
+
+Migrating flashcards should be farily straight forward but offers opportunities to explore nesting (resources and routing). Stack Overflow is a more complex domain, but gives you the opportunity to see how efficient and productive using Rails can be.
 
 ## Objectives
 
-If you need a specific area to focus on, [Rails form helpers](http://guides.rubyonrails.org/form_helpers.html) are a great place to start.  Form helpers are the collection of view helpers that Rails uses to generate, manipulate, and submit forms.
- 
+Part of grasping "The Rails Way" is to make use of [form helpers][] and [url-helpers][].
 
-##Releases
+These tools allow you to write much less code (sometimes a single line) and have Rails generate forms that are REST-compatible, resource-oriented, and guarded from certain types of web traffic hacks (e.g. [CSRF attacks][csrf])
+
+## Releases
+
 Use the same release structure from the Sinatra project you choose.
-##Optimize Your Learning 
+
+## Optimize Your Learning
+
 Make sure you understand every line of code you're writing. Don't copy and paste.
-##Resources
+
+## Resources
+
 [Sinatra to Rails](https://gist.github.com/keithtom/2956bfa3c603e21e6b6c)
+
+[csrf]: https://en.wikipedia.org/wiki/Cross-site_request_forgery
+[form helpers]: http://guides.rubyonrails.org/form_helpers.html
+[url-helpers]: http://guides.rubyonrails.org/routing.html#path-and-url-helpers
