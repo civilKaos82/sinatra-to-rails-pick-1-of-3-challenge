@@ -4,7 +4,7 @@
 
  Pick one of the following Sinatra-based challenges and build it in Rails:
 
-1. [Web Flashcards Challenge](../../../../web-flashcards-challenge)
+1. [Web Flashcards Challenge](../../../web-flashcards-challenge)
 1. [Stack Overflow Clone](../../../sinatra-overflow-challenge)
 
 Focus on doing things the "Rails way." The "convention over configuration" can be frustrating coming from more explicit frameworks like Sinatra.
